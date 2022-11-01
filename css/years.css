@@ -1,0 +1,61 @@
+:root {
+  --main-blue: #001a55;
+  --seco-blue: #4f82b6;
+  --focus-green: #70bd5d;
+  --mid-grey: rgb(191, 193, 211);
+  --strong-grey: rgb(166, 167, 181);
+  --dark-green: #3f7531;
+}
+
+.primary-title {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--main-blue);
+}
+
+.secondary-title {
+  color: white;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.yearEditions {
+  margin: 9.6rem 0;
+}
+
+.tela {
+  display: grid;
+  gap: 3.2rem;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  padding: 3.2rem 0;
+}
+
+.descricao {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.edition img {
+  width: 90%;
+}
+
+.edition:link,
+.edition:visited {
+  text-decoration: none;
+  color: white;
+  background-color: var(--mid-grey);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem;
+  border-radius: 1.2rem;
+}
+
+.edition:hover,
+.edition:active {
+  background-color: var(--dark-green);
+}
